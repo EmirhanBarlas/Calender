@@ -1,11 +1,11 @@
 ﻿using System;
 
-class CalendarProgram
+class Calender
 {
     static void Main()
     {
         DateTime startDate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
-        Console.WriteLine("   Date                  Day");
+        Console.WriteLine("    Date                  Day");
         Console.WriteLine("-------------------------------");
         for (int i = 0; i < (int)startDate.DayOfWeek; i++)
         {
